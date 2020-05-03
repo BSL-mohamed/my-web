@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #01142F;
+    perspective: 600px;
+}
+/*START OF NAVBAR*/
+form{
+    margin: auto auto;
+}
+.navbar-brand{
+    font-family: arial tahoma;
+    white-space: 1.1;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #BC0022;
+    font-size:19px;
+    margin: 3px;
+    font-weight: bolder;
+    transition: all ease .4s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+    color:#e41b17;
+    font-size: 23px;
+    padding: 5px; 
+}
+
+}
+/*END OF NAVBAR*/
+/*START OF CAROUSEL*/
+h1{
+    font-size: 40px;
+    color: #bf3030;
+    
+}
+.carousel .caption{
+    margin-top: 30px;
+    margin-bottom: 160px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+.logo1 img{
+    width: 120px;
+    height: 120px;
+    transition: all ease-in-out 1s;
+}
+.logo1 img:hover{
+    transform: rotatex(360deg) scale(1.7);
+}
+
+
+/*END OF CAROUSEL*/
+/*HASH-TAG*/
+.hash-tag h2{
+    text-align: center;
+    color: blanchedalmond;
+    margin-top:40px ;
+    margin-bottom: 25px;
+}
+.hash-tag h2 img {
+    height: 50px;
+    width: 52px;
+
+}
+/*HASH-TAG*/
+
+/*START OF SECTION FEATURES*/
+
+.features{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.features h1{
+    color: #e41b17;
+}
+
+.features .tip{
+    margin-top: 19px;
+    display: inline-block;
+    color: #fff;
+}
+.tip h3{
+    font-size: 20px;
+}
+.tip i{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+
+/*END OF SECTION FEATURES*/
+
+
+/*START OF SUGGESTIONS*/
+
+.suggestions h1{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    color: chartreuse;
+}
+/*START OF CARD1*/
+.card1{
+    width: 200px;
+    height: 350px;
+    margin:40px auto;
+    transition: all 1s ease-in-out;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.card1 .front{
+    color: #777;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-family: cairo;
+    border-radius: 10px;
+}
+
+.card1 .front header{
+    background-color: #444;
+    width: 100%;
+    height: 80px;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 45px;
+}
+.card1 .front img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+}
+.card1 .front h3{
+    margin-top: 19px;
+}
+.card1 .front p{
+    width: 88%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.card1 .front span{
+    display: inline-block;
+    margin-top: 7px;
+    color: #e41b17;
+    font-weight: bold;
+}
+/* END OF CARD1*/
+
+/* START OF CARD2*/
+
+.card2{
+    width: 200px;
+    height:350px;
+    margin:40px auto;
+    transition: all 1s ease-in-out;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.card2 .front{
+    color: #777;
+    width: 100%;
+    height: 100%;
+    background-color: #631309;
+    font-family: cairo;
+    border-radius: 10px;
+}
+
+
+.card2 .front header{
+    background-color: #444;
+    width: 100%;
+    height: 80px;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 45px;
+}
+.card2 .front img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+}
+.card2 .front h3{
+    margin-top: 19px;
+}
+.card2 .front p{
+    width: 88%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.card2 .front span{
+    display: inline-block;
+    margin-top: 7px;
+    color: #e41b17;
+    font-weight: bold;
+}
+
+/* END OF CARD2*/
+
+/*START OF CARD3*/
+.card3{
+    width: 200px;
+    height: 350px;
+    margin:40px auto;
+    transition: all 1s ease-in-out;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.card3 .front{
+    color: #777;
+    width: 100%;
+    height: 100%;
+    background-color: #011026;
+    font-family: cairo;
+    border-radius: 10px;
+}
+
+
+.card3 .front header{
+    background-color: #444;
+    width: 100%;
+    height: 80px;
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 45px;
+}
+.card3 .front img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+}
+.card3 .front h3{
+    margin-top: 19px;
+}
+.card3 .front p{
+    width: 88%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.card3 .front span{
+    display: inline-block;
+    margin-top: 7px;
+    color: #e41b17;
+    font-weight: bold;
+}
+
+.front ul{
+    margin-top: 13px;
+}
+.front li{
+    margin-top: 4px;
+}
+.front li i{
+    margin-right: 10px;
+}
+/*END OF CARD3*/
+
+/*END OF SUGGESTIONS*/
+
+
+/*START OF OUR TEAM*/
+
+.our-team img{
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.our-team .container{
+    background-color: rgba(255, 255, 255,.2);
+    min-height: 700px;
+    border-radius: 30px;
+}
+.our-team h1{
+    color: black;
+}
+.our-team p{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.our-team .me {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+
+
+/*END OF OUR TEAM*/
+
+
+/*START OF LOGIN AND SIGN UP*/
+
+.login-box{
+    margin: 50px auto;
+    width: 410px;
+    height: 590px;
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+
+}
+.login-box h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.login-box p{
+    font-size: 18px;
+}
+.login-box .user{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.login-box .pass{
+    margin-left: 40px;
+}
+.login-box input{
+    width:100%;
+    height: 50px;
+    margin-bottom:20px;
+}
+.login-box input[type="text"] , input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #007bf1;
+    background: transparent;
+    outline: none;
+    color: tomato;
+    font-size: 21px;
+    padding-left: 21px;
+    border-radius: 30px;
+}
+.login-box input[type="submit"]{
+    border: none;
+    margin-top: 15px;
+    outline: none;
+    height: 40px;
+    background-color: #007bf1;
+    font-size: 23px;
+    border-radius: 20px;
+    transition: ease-in-out all .6s;
+} 
+.login-box input[type="submit"]:hover{
+    background-color: #344359;
+    color: #e41b17;
+}
+.login-box a{
+    display: block ;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.login-box .or{
+    text-align: center;
+    margin-top: 30px;
+}
+.login-box li{
+
+    display: inline;
+    margin-right: 30px;
+}
+.login-box li i{
+    font-size: 25px;
+    transition: all ease-in-out .4s;
+}
+.login-box li i:hover{
+    transform: scale(1.5);
+}
+
+/*END OF LOGIN AND SIGN UP*/
+
+/*footer*/
+.footer
+{
+    background-color: #04285d;
+    color: white;padding: 5px ;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
